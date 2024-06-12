@@ -36,6 +36,7 @@
     --white-color: #ffff;
     --primary-color: #FA6A00;
     --black-300: #636363;
+    --light-blue-color: #1A2336;
 
 
 
@@ -472,6 +473,34 @@
 /*================== your car ====================*/
 .pb_121 {
     padding-bottom: 121px;
+}
+
+/*==================== behind the secne =====================*/
+.max-w-680 {
+    max-width: 680px;
+}
+
+.behind-the-scene-bg-color {
+    background-color: var(--light-blue-color);
+}
+
+.max-w-592 {
+    max-width: 592px;
+}
+
+.pt_40 {
+    padding-top: 40px;
+}
+
+.mt_20 {
+    margin-top: 20px;
+}
+
+/*===================== meet my team  =======================*/
+.team_layer {
+    position: absolute;
+    right: 0;
+    transform: translate(-130px, -130px);
 }
 
 /*================ animation =====================*/
