@@ -367,6 +367,9 @@
 
 .heaser-bg-img {
     background-image: url("../img/png/main_sec_bg_img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .nav_links {
@@ -447,6 +450,30 @@
     margin-top: 100px;
 }
 
+.pt_80 {
+    padding-top: 80px;
+}
+
+
+
+/*================== ice blasting ======================*/
+.bg-orange {
+    background-color: var(--primary-color);
+}
+
+.pt_20 {
+    padding-top: 20px;
+}
+
+.pt_237 {
+    padding-top: 237px;
+}
+
+/*================== your car ====================*/
+.pb_121 {
+    padding-bottom: 121px;
+}
+
 /*================ animation =====================*/
 
 
@@ -488,6 +515,22 @@
     }
 
     .show {
+        left: 0;
+    }
+
+
+}
+
+@media (min-width:992px) {
+    .ice-blast-right {
+        position: absolute;
+        top: 20%;
+        right: 0;
+    }
+
+    .ice-blast-left {
+        position: absolute;
+        top: 37%;
         left: 0;
     }
 
