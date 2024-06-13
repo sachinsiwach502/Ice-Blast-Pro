@@ -527,6 +527,33 @@
 
 }
 
+.input_sec {
+    border: 1px solid #101A2E33;
+    background: #F3F3F4;
+    border-radius: 14px;
+    padding: 16px 30px 35px 30px;
+}
+
+.textArea {
+    border: 1px solid #101A2E33;
+    background: var(--white-color);
+    border-radius: 16px;
+    width: 100%;
+    resize: none;
+    padding-top: 16px;
+    padding-left: 16px;
+    outline: none;
+}
+
+/*========================= back to prim ==================*/
+.container_966 {
+    max-width: 966px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*================ animation =====================*/
 
 
