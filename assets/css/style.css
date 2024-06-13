@@ -554,6 +554,19 @@
     margin-right: auto;
 }
 
+/*============== latest news =======================*/
+.new_card {
+    padding: 10px 10px 24px 10px;
+    box-shadow: 0px 0px 12px 0px #0000001A;
+    background: var(--white-color);
+    border-radius: 16px;
+    transition: all 350ms linear;
+}
+
+.new_card:hover {
+    box-shadow: 0px 0px 26.2px 0px var(--primary-color);
+}
+
 /*================ animation =====================*/
 
 
