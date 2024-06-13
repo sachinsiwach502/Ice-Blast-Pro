@@ -503,6 +503,30 @@
     transform: translate(-130px, -130px);
 }
 
+/*===================== still unsucer ========================*/
+.acc_itm {
+    border: 1px solid #101A2E33;
+    border-radius: 14px;
+    margin-top: 20px;
+    background: #F3F3F4;
+}
+
+.hidden_txt {
+    display: none;
+    padding: 22px 30px 22px 30px;
+}
+
+.minus_icon {
+    display: none;
+    color: white;
+}
+
+.click_part {
+    padding: 22px 30px 22px 30px;
+    cursor: pointer;
+
+}
+
 /*================ animation =====================*/
 
 

@@ -41,3 +41,47 @@ menuIcon.addEventListener("click", () => {
     }
 });
 
+// still unscure accordian===============================
+  
+
+document.querySelectorAll(".acc_itm").forEach((itm) => {
+    let pluIcon = itm.querySelector(".plus_icon");
+    let minuIcon = itm.querySelector(".minus_icon");
+    let hiddenTxt = itm.querySelector(".hidden_txt");
+    let accHead = itm.querySelector(".click_part");
+    let heading = itm.querySelector(".acc_heading");
+
+    accHead.addEventListener("click", () => {
+        document.querySelectorAll(".acc_itm").forEach((otherItm) => {
+            if (otherItm !== itm) {
+                let otherPluIcon = otherItm.querySelector(".plus_icon");
+                let otherMinuIcon = otherItm.querySelector(".minus_icon");
+                let otherHiddenTxt = otherItm.querySelector(".hidden_txt");
+                let otherheading = otherItm.querySelector(".acc_heading");
+
+                otherMinuIcon.style.display = "none";
+                otherPluIcon.style.display = "block";
+                otherHiddenTxt.style.display = "none";
+                otherItm.style.backgroundColor = "white";
+                otherheading.style.color = "black";
+            }
+        });
+
+        let texDisplay = window.getComputedStyle(hiddenTxt).display;
+        if (texDisplay === "none") {
+            minuIcon.style.display = "block";
+            pluIcon.style.display = "none";
+            hiddenTxt.style.display = "block";
+            itm.style.backgroundColor = "black";
+            hiddenTxt.style.color = "white"
+            heading.style.color = "white"
+        } else {
+            minuIcon.style.display = "none";
+            pluIcon.style.display = "block";
+            hiddenTxt.style.display = "none";
+            itm.style.backgroundColor = "white";
+            heading.style.color = "black";
+        }
+    });
+});
+
